@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CarouselPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+              xmlns:lottie="clr-namespace:Lottie.Forms;assembly=Lottie.Forms"
+              x:Class="Chohuatl.Vistas.Tuto">
+    <ContentPage BackgroundColor="AliceBlue">
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+            <lottie:AnimationView Grid.Row="0"
+                Animation="Aguacate.json"
+                AutoPlay="True"
+                Loop="True"
+                HeightRequest="400"
+                WidthRequest="400"
+                HorizontalOptions="CenterAndExpand"
+                VerticalOptions="CenterAndExpand"/>
+            <Label Grid.Row="1" Text="Texto de pueba" HorizontalOptions="Start"/>
+        </Grid>
+    </ContentPage>
+    <ContentPage>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+            <lottie:AnimationView Grid.Row="0"
+                Animation="abuelo.json"
+                AutoPlay="True"
+                Loop="True"
+                HeightRequest="400"
+                WidthRequest="400"
+                HorizontalOptions="CenterAndExpand"
+                VerticalOptions="CenterAndExpand"/>
+            <Label Grid.Row="1" Text="Texto de pueba 2" HorizontalOptions="Center"/>
+        </Grid>
+    </ContentPage>
+</CarouselPage>

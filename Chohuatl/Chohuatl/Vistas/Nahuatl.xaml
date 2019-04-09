@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:ffimageloading="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
+             xmlns:fftransformations="clr-namespace:FFImageLoading.Transformations;assembly=FFImageLoading.Transformations"
+             x:Class="Chohuatl.Vistas.Nahuatl">
+    <ScrollView BackgroundColor="AliceBlue">
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="50"/>
+                <RowDefinition Height="50"/>
+                <RowDefinition Height="50"/>
+                <RowDefinition Height="50"/>
+                <RowDefinition Height="50"/>
+                <RowDefinition Height="50"/>
+                <RowDefinition Height="50"/>
+                <RowDefinition Height="50"/>
+                <RowDefinition Height="50"/>
+                <RowDefinition Height="50"/>
+                <RowDefinition Height="50"/>
+                <RowDefinition Height="50"/>
+                <RowDefinition Height="50"/>
+                <RowDefinition Height="50"/>
+                <RowDefinition Height="50"/>
+                <RowDefinition Height="50"/>
+                <RowDefinition Height="50"/>
+                <RowDefinition Height="50"/>
+                <RowDefinition Height="50"/>
+                <RowDefinition Height="50"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <!--imagen1-->
+          <ffimageloading:CachedImage Source="canimales.png"
+                                  Grid.Row="1" Grid.Column="7" 
+                                  Grid.ColumnSpan="5" Grid.RowSpan="2">
+              <ffimageloading:CachedImage.Transformations>
+                <fftransformations:CircleTransformation/>
+              </ffimageloading:CachedImage.Transformations>
+            <ffimageloading:CachedImage.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"/>
+                </ffimageloading:CachedImage.GestureRecognizers>
+            </ffimageloading:CachedImage>
+            <Label Text="Animales" Grid.Row="3" Grid.Column="7" Grid.ColumnSpan="5" Grid.RowSpan="2" HorizontalOptions="Center"/>
+            <!--imagen2-->
+            <ffimageloading:CachedImage Source="ccolores.png"
+                                  Grid.Row="4" Grid.Column="1" 
+                                  Grid.ColumnSpan="5" Grid.RowSpan="2">
+              <ffimageloading:CachedImage.Transformations>
+                <fftransformations:CircleTransformation/>
+              </ffimageloading:CachedImage.Transformations>
+              <ffimageloading:CachedImage.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_1"/>
+                </ffimageloading:CachedImage.GestureRecognizers>
+            </ffimageloading:CachedImage>
+            <Label Text="Colores" Grid.Row="6" Grid.Column="1" Grid.ColumnSpan="5" Grid.RowSpan="2" HorizontalOptions="Center"/>
+
+          <ffimageloading:CachedImage Source="cnumeros.png" 
+                                  Grid.Row="4" Grid.Column="13"
+                                  Grid.ColumnSpan="5" Grid.RowSpan="2">
+              <ffimageloading:CachedImage.Transformations>
+                <fftransformations:CircleTransformation/>
+              </ffimageloading:CachedImage.Transformations>
+            <ffimageloading:CachedImage.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_2"/>
+                </ffimageloading:CachedImage.GestureRecognizers>
+            </ffimageloading:CachedImage>
+            <Label Text="Numeros" Grid.Row="6" Grid.Column="13" Grid.ColumnSpan="5" Grid.RowSpan="2" HorizontalOptions="Center"/>
+
+          <ffimageloading:CachedImage Source="ccuerpo.png"
+                                  Grid.Row="7" Grid.Column="7"
+                                  Grid.ColumnSpan="5" Grid.RowSpan="2">
+              <ffimageloading:CachedImage.Transformations>
+                <fftransformations:CircleTransformation/>
+              </ffimageloading:CachedImage.Transformations>
+            <ffimageloading:CachedImage.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_3"/>
+                </ffimageloading:CachedImage.GestureRecognizers>
+            </ffimageloading:CachedImage>
+            <Label Text="Partes del cuerpo" Grid.Row="9" Grid.Column="7" Grid.ColumnSpan="5" Grid.RowSpan="2" HorizontalOptions="Center"/>
+
+          <ffimageloading:CachedImage Source="cfrutas.png"
+                                  Grid.Row="10" Grid.Column="1"
+                                  Grid.ColumnSpan="5" Grid.RowSpan="2">
+              <ffimageloading:CachedImage.Transformations>
+                <fftransformations:CircleTransformation/>
+              </ffimageloading:CachedImage.Transformations>
+            <ffimageloading:CachedImage.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_4"/>
+                </ffimageloading:CachedImage.GestureRecognizers>
+            </ffimageloading:CachedImage>
+            <Label Text="Frutas" Grid.Row="12" Grid.Column="1" Grid.ColumnSpan="5" Grid.RowSpan="2" HorizontalOptions="Center"/>
+
+          <ffimageloading:CachedImage Source="cverduras.png"
+                                  Grid.Row="10" Grid.Column="13"
+                                  Grid.ColumnSpan="5" Grid.RowSpan="2">
+              <ffimageloading:CachedImage.Transformations>
+                <fftransformations:CircleTransformation/>
+              </ffimageloading:CachedImage.Transformations>
+            <ffimageloading:CachedImage.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_5"/>
+                </ffimageloading:CachedImage.GestureRecognizers>
+            </ffimageloading:CachedImage>
+            <Label Text="Verduras" Grid.Row="12" Grid.Column="13" Grid.ColumnSpan="5" Grid.RowSpan="2" HorizontalOptions="Center"/>
+
+          <ffimageloading:CachedImage Source="csaludos.png"
+                                  Grid.Row="13" Grid.Column="7"
+                                  Grid.ColumnSpan="5" Grid.RowSpan="2">
+              <ffimageloading:CachedImage.Transformations>
+                <fftransformations:CircleTransformation/>
+              </ffimageloading:CachedImage.Transformations>
+              <ffimageloading:CachedImage.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_6"/>
+                </ffimageloading:CachedImage.GestureRecognizers>
+            </ffimageloading:CachedImage>
+            <Label Text="Conversacion" Grid.Row="15" Grid.Column="7" Grid.ColumnSpan="5" Grid.RowSpan="2" HorizontalOptions="Center"/>
+
+          <ffimageloading:CachedImage Source="chogar.png"
+                                  Grid.Row="16" Grid.Column="7" 
+                                  Grid.ColumnSpan="5" Grid.RowSpan="2">
+              <ffimageloading:CachedImage.Transformations>
+                <fftransformations:CircleTransformation/>
+              </ffimageloading:CachedImage.Transformations>
+            <ffimageloading:CachedImage.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_7"/>
+                </ffimageloading:CachedImage.GestureRecognizers>
+            </ffimageloading:CachedImage>
+            <Label Text="Cosas del hogar" Grid.Row="18" Grid.Column="7" Grid.ColumnSpan="5" Grid.RowSpan="2" HorizontalOptions="Center"/>
+          </Grid>
+    </ScrollView>
+</ContentPage>

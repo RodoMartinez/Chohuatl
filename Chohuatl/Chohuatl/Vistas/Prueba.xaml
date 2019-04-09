@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Chohuatl.Vistas.Prueba">
+    <ContentPage.Content>
+        <ScrollView BackgroundColor="LightBlue">
+
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+                <Label x:Name="preg" Grid.Row="0" TextColor="Black" FontSize="20" Text="{Binding NuevaPregunta}"/>
+                <Entry Placeholder="Respuesta" x:Name="Respuesta" Grid.Row="1"/>
+                <Button x:Name="sig" Grid.Row="2" Text="Siguiente" HorizontalOptions="EndAndExpand" BorderRadius="20" BackgroundColor="Cyan" Clicked="Sig_Clicked"/>
+                <Button x:Name="btn2" Grid.Row="2" Text="Salir" HorizontalOptions="StartAndExpand" BorderRadius="20" BackgroundColor="Cyan" Clicked="Btn2_Clicked"/>
+            </Grid>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
